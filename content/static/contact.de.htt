@@ -1,0 +1,27 @@
+<h1>Kontakt</h1>
+<!-- heading of the page should go first -->
+
+<div class="flex-row-reverse">
+    <form class="mb-4" method="post" id="frm1">
+        <div class="form-group">
+            <label for="frm1_phone1">Name</label>
+            <input type="text" name="name" value="{FRM1_VAL_NAME}" class="form-control" id="frm1_name1" placeholder="Geben Sie Ihren Namen an">
+        </div>
+        <div class="form-group">
+            <label for="frm1_email1">E-mail</label>
+            <input type="email" name="email" value="{FRM1_VAL_EMAIL}" class="form-control" id="frm1_email1"
+                   placeholder="Geben Sie Ihre E-Mail-Adresse ein">
+        </div>
+        <div class="form-group">
+            <label for="frm1_phone1">Telefon</label>
+            <input type="text" name="phone" class="form-control" id="frm1_phone1" value="{FRM1_VAL_PHONE}" placeholder="Geben Sie Ihre Telefonnummer ein">
+        </div>
+        <div class="form-group">
+            <label for="frm1_msg1">Nachricht</label>
+            <textarea name="message" class="form-control" id="frm1_msg1" rows="3">{FRM1_TXT_MESSAGE}</textarea>
+        </div>
+        <input name="subject" value="Nachricht aus dem Web" hidden>
+        <button type="submit" name="submit_contactus" class="btn btn-primary">Senden</button>
+    </form>
+</div>
+

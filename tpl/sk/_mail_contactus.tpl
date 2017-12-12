@@ -1,0 +1,4 @@
+Meno: {VAR_FRM1_NAME}
+E-mail: {VAR_FRM1_EMAIL}
+Telefón: {VAR_FRM1_PHONE}
+Správa: {VAR_FRM1_MESSAGE}

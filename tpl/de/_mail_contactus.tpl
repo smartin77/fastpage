@@ -1,0 +1,4 @@
+Name: {VAR_FRM1_NAME}
+E-mail: {VAR_FRM1_EMAIL}
+Telefon: {VAR_FRM1_PHONE}
+Nachricht: {VAR_FRM1_MESSAGE}

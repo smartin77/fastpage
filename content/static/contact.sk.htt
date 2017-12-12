@@ -1,0 +1,27 @@
+<h1>Kontakt</h1>
+<!-- heading of the page should go first -->
+
+<div class="flex-row-reverse">
+    <form class="mb-4" method="post" id="frm1">
+        <div class="form-group">
+            <label for="frm1_phone1">Meno</label>
+            <input type="text" name="name" value="{FRM1_VAL_NAME}" class="form-control" id="frm1_name1" placeholder="Zadajte vaše meno">
+        </div>
+        <div class="form-group">
+            <label for="frm1_email1">Email</label>
+            <input type="email" name="email" value="{FRM1_VAL_EMAIL}" class="form-control" id="frm1_email1"
+                   placeholder="Zadajte emailovú adresu">
+        </div>
+        <div class="form-group">
+            <label for="frm1_phone1">Telefón</label>
+            <input type="text" name="phone" class="form-control" id="frm1_phone1" value="{FRM1_VAL_PHONE}" placeholder="Zadajte telefónne číslo">
+        </div>
+        <div class="form-group">
+            <label for="frm1_msg1">Správa</label>
+            <textarea name="message" class="form-control" id="frm1_msg1" rows="3">{FRM1_TXT_MESSAGE}</textarea>
+        </div>
+        <input name="subject" value="Správa z webu" hidden>
+        <button type="submit" name="submit_contactus" class="btn btn-primary">Odoslať</button>
+    </form>
+</div>
+

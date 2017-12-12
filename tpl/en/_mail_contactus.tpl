@@ -1,0 +1,4 @@
+Name: {VAR_FRM1_NAME}
+E-mail: {VAR_FRM1_EMAIL}
+Phohe: {VAR_FRM1_PHONE}
+Message: {VAR_FRM1_MESSAGE}
