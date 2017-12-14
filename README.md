@@ -20,5 +20,4 @@ This project comes from early version of my own CMS system. Later I used to use 
 Please see details in [projects wiki](https://github.com/smartin77/fastpage/wiki)
 
 ## Support
-You can report bugs on projects page https://github.com/smartin77/fastpage
-Because this is a quite obsolete project I will provide no further support.
+You can report bugs on projects page https://github.com/smartin77/fastpage, but because this is a quite obsolete project I will provide no further support.
